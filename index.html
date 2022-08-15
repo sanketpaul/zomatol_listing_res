@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zomato listing page responsive</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header flex">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="img/zomato brand.avif" height:70px width="100px" alt=" zomato">
+        </a>
+
+
+
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="search_bar">
+
+    <div class="form form-group form_position">
+
+
+      <i class="fa-solid fa-location-dot fa-beat-fade v-res " style="color:rgb(182, 113, 124)"></i>
+      <select name="select_location" id=" select_location" class="display_none">
+        <option value="">Select location</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Kolkata">Delhi</option>
+        <option value="Kolkata">mumbai</option>
+      </select>
+
+
+
+
+
+      <i class="fa-solid fa-magnifying-glass fa-flip "
+        style="--fa-animation-duration: 3s;color:rgb(121, 115, 115) "></i>
+      <input type="text" placeholder="search for restaurant , dishes and cuisines">
+
+
+
+
+
+    </div>
+  </section>
+  <div class="container">
+    <div class="filter">
+      <h3 class="text-center">Filter</h3>
+      <div class="cusines ">
+        <h4>Cusines</h4>
+        <input type="radio" name="NorthIndian" id="NorthIndian" class=""> North Indian
+        <br>
+        <input type="radio" name="NorthIndian" id="NorthIndian" class=""> South Indian
+        <br>
+        <input type="radio" name="NorthIndian" id="NorthIndian" class=""> Bangalis
+        <br>
+        <input type="radio" name="NorthIndian" id="NorthIndian" class=""> Chinies
+        <br>
+      </div>
+      <div class="cost_per_person">
+        <h4> Cost Per Person</h4>
+        <input type="radio" name="" id=""> 200
+        <br>
+        <input type="radio" name="" id=""> 200-400
+        <br>
+
+        <input type="radio" name="" id=""> 400-450
+        <br>
+
+        <input type="radio" name="" id=""> 450-600
+      </div>
+    </div>
+
+<!-- Box container -->
+    <div class="box_container">
+
+      <h2>Inspiration for your first order</h2>
+      <div class="round_plate">
+        <div class="round_plate_box">
+          <img src="img/dish1.avif" alt="" class="rotate_plate">
+          <h3 class="text-center" >Biriyani</h3>
+        </div>
+        
+        <div class="round_plate_box">
+          <img src="img/dish2.webp" alt="" class="rotate_plate">
+          <h3 class="text-center ">Checken</h3>
+        </div>
+        
+        <div class="round_plate_box">
+          <img src="img/pizza.avif" alt="" class="rotate_plate">
+          <h3 class="text-center">Pizza</h3>
+        </div>
+        
+        <div class="round_plate_box">
+          <img src="img/noodles.avif" alt="" class="rotate_plate">
+          <h3 class="text-center">Noodles</h3>
+        </div>
+        
+        <div class="round_plate_box">
+          <img src="img/dosa.avif" alt="" class="rotate_plate">
+          <h3 class="text-center">Dosa</h3>
+        </div>
+        
+        <div class="round_plate_box">
+          <img src="img/chat.avif" alt="" class="rotate_plate">
+          <h3 class="text-center">Chat</h3>
+        </div>
+        
+      </div>
+     
+      <h2>Order food online in Kolkata</h2>
+
+      <div class="container-fluid food_plate  ">
+
+        <div class="row box_2_container">
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-12">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Smokey House</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-3">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Food Studio</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-4">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Khargapur Special</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Non Veg </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-5">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Mr Pizza</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Pizza, Burger , sandwiches </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-6">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Biriyani House</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Biriyani ,Friedrice </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-7">
+
+                <div class="off"> 20% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Abdul chacha Biriyani</h4></div>
+                  <div class="rating">5.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Biriyani, sandwiches </div>
+                  <div class="rs"> ₹ 300 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1799+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-2">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Budhha Bites</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-8">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Chingri house</h4></div>
+                  <div class="rating">4.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger ,Friedrice </div>
+                  <div class="rs"> ₹ 200 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1099+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-9">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Ande</h4></div>
+                  <div class="rating">5.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 50 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>189+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-10">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Nice Pizza</h4></div>
+                  <div class="rating">4.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 230 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1099+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-11">
+
+                <div class="off"> 40% OFF</div>
+                <div class="time"> 15 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>SouthIndian Hotel</h4></div>
+                  <div class="rating">6.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> South Indian</div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  box_2">
+
+            <div class="card_box_2">
+              <div class="image_2 img-1">
+
+                <div class="off"> 60% OFF</div>
+                <div class="time"> 25 min</div>
+                
+              </div>
+              <div class="details_2">
+                <div class="res_name_rating">
+                  <div class="res_name"><h4>Mr Sandwiches</h4></div>
+                  <div class="rating">3.5 <i class="fa-solid fa-star fa-2xs fa-spin"></i> </div>
+                </div>
+                <div class="items_name_rs">
+                  <div class="items_name"> Burger , sandwiches </div>
+                  <div class="rs"> ₹ 100 for one </div>
+                </div>
+                <div class="order_count">
+                  <img src="pix/orderuparrow.webp " height="15px" alt="">
+                  <p>1899+ delivery from here recently</p>
+                  <img src="pix/safetybadge.webp" height="17px" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          
+          
+       
+        </div>
+   
+         
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+  </div>
+  </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f1eb43dd31.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=DynaPuff&family=Gentium+Book+Plus&family=Mali:wght@500&family=Varela+Round&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.flex {}
+
+
+.form_position {
+    border: 1px solid rgb(253, 134, 130);
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1px;
+    border-radius: 10px;
+    /* font-family: 'Bree Serif', serif; */
+
+
+}
+
+.form_position input {
+    border: none;
+    width: 50%;
+    outline: none;
+    height: 100%;
+
+}
+
+.form_position select {
+    width: 40%;
+    font-size: 16px;
+    border: none;
+    border-right: 1px solid gray;
+    outline: none;
+    height: 99%;
+}
+
+.filter {
+    /* height: 400px; */
+    width: 15%;
+    /* border: 2px solid red; */
+    float: left;
+    /* font-family: 'Bree Serif', serif; */
+
+}
+
+.box_container {
+    /* border: 2px solid red; */
+    width: 84%;
+    float: left;
+    /* height: 400px; */
+    /* font-family:font-family: 'Bree Serif', serif; 'Bree Serif', serif; */
+}
+
+.round_plate {
+    width: 100%;
+    /* height: 213px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+
+}
+
+.rotate_plate {
+    animation: rotate 30s infinite ease-in-out;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 23px;
+}
+
+@keyframes rotate {
+    0% {
+        transfrom: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    75% {
+        transform: rotate(270deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+
+
+
+}
+
+.round_plate_box {
+    animation: sanket 0.7s ease-in;
+
+
+
+}
+
+.round_plate_box:hover {
+    cursor: pointer;
+}
+
+.round_plate_box img {
+    /* margin-left: 1%; */
+    /* padding: 2px; */
+    height: 140px;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    border-radius: 50%;
+
+}
+
+
+
+/* box2 desigining */
+.food_plate{
+    margin-top: 23px;
+}
+.box_2 {
+    /* border: 2px solid red; */
+}
+
+.card_box_2 {
+    /* border: 2px solid red; */
+    /* width: 100; */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    transform: 0.3s;
+    animation: sanket 0.5s ease-in-out;
+}
+
+.card_box_2:hover {
+    cursor: pointer;
+}
+
+@keyframes sanket {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.image_2 {
+    width: 100%;
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.img-1 {
+    background-image: url(pix/burger.jpg);
+}
+
+.img-2 {
+    background-image: url(pix/biriyani.jpg);
+}
+
+.img-3 {
+    background-image: url(pix/burgre.jpg);
+}
+
+.img-4 {
+    background-image: url(pix/chicken.jpg);
+}
+
+.img-5 {
+    background-image: url(pix/pizza.jpg);
+}
+
+.img-6 {
+    background-image: url(pix/dish-7043064.jpg);
+}
+
+.img-7 {
+    background-image: url(pix/matarpaneer.jpg);
+}
+
+.img-8 {
+    background-image: url(pix/fried-rice-4708866.jpg);
+}
+
+.img-9 {
+    background-image: url(pix/egg\ curry.jpg);
+}
+
+.img-10 {
+    background-image: url(pix/pizza2.jpg);
+}
+
+.img-11 {
+    background-image: url(pix/southindian.jpg);
+}
+
+.img-12 {
+    background-image: url(pix/sandwich-5930496.jpg);
+}
+
+.off {
+    background-color: rgb(37 111 239);
+    padding: 2px 4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 7px;
+    color: white;
+    animation: colors 1s infinite ease;
+}
+
+@keyframes colors {
+    from {
+        color: rgb(37 111 239);
+    }
+
+    to {
+        color: white;
+    }
+}
+
+.time {
+    background-color: aliceblue;
+    padding: 2px 4px;
+    margin: 7px 3px;
+    border-radius: 5px;
+}
+
+.res_name_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.res_name h4 {
+    /* font-family: 'Bree Serif', serif; */
+    /* font-weight: bold; */
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rating {
+    background-color: rgb(21, 101, 21);
+    color: white;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+.items_name_rs {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.items_name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.order_count {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+.order_count p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.details_2 {}
