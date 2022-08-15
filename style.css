@@ -173,7 +173,7 @@ body {
 }
 
 .img-1 {
-    background-image: url(pix/burger.jpg);
+    background-image: url(pix/pizza3.jpg);
 }
 
 .img-2 {
@@ -275,6 +275,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin: 0px 2px;
 
 }
 .items_name{
@@ -288,12 +289,15 @@ body {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    margin-left: 2px ;
+    margin-right: 2px;
    
 }
 .order_count p{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    
 }
 
 .details_2 {}
